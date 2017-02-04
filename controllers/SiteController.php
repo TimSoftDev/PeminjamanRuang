@@ -11,18 +11,18 @@ use app\models\ContactForm;
 
 class SiteController extends Controller
 {
-    /**
-     * @inheritdoc
-     */
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout'],
                 'rules' => [
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['login', 'index', 'monitoring', 'error'],
+                        'allow' => true,
+                    ],
+                    [
+                        'actions' => ['logout', 'index', 'pesan', 'pesan-ruang', 'contact'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -77,10 +77,11 @@ class SiteController extends Controller
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
+        } else {
+            return $this->render('login', [
+                'model' => $model,
+            ]);
         }
-        return $this->render('login', [
-            'model' => $model,
-        ]);
     }
 
     /**
@@ -114,12 +115,32 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays about page.
+     * Displays monitoring page.
      *
      * @return string
      */
-    public function actionAbout()
+    public function actionMonitoring()
     {
-        return $this->render('about');
+        return $this->render('monitoring');
+    }
+
+    /**
+     * Displays pesan page.
+     *
+     * @return string
+     */
+    public function actionPesan()
+    {
+        return $this->render('pesan');
+    }
+
+    /**
+     * Displays pesan-ruang page.
+     *
+     * @return string
+     */
+    public function actionPesanRuang()
+    {
+        return $this->render('pesan-ruang');
     }
 }
