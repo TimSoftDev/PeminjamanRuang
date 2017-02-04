@@ -30,20 +30,22 @@ AppAsset::register($this);
         'brandLabel' => 'Sistem Manajemen Ruang',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar navbar-inverse navbar-fixed-top',
+            'class' => 'navbar navbar-default navbar-fixed-top',
         ],
     ]);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Beranda', 'url' => ['/site/index']],
+
             Yii::$app->user->isGuest ? (
                 ['label' => 'Monitoring', 'url' => ['/site/monitoring']]
             ) : (
                 ['label' => 'Pesan', 'url' => ['/site/pesan']]
             ),
 
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Daftar', 'url' => ['/site/signup']],
+
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
