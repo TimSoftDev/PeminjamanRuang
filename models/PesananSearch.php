@@ -7,24 +7,43 @@ use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use app\models\Pesanan;
 
+/**
+ * PesananSearch represents the model behind the search form about `app\models\Pesanan`.
+ */
 class PesananSearch extends Pesanan
 {
+    /**
+     * @inheritdoc
+     */
     public function rules()
     {
         return [
-            [['id'], 'integer'],
-            [['nim_mahasiswa', 'sesi_waktu', 'id_ruang', 'tanggal_penggunaan', 'no_surat', 'status', 'tanggal_pesan', 'tanggal_verifikasi'], 'safe'],
+            [['id', 'sesi_waktu'], 'integer'],
+            [['nim_mahasiswa', 'id_ruang', 'tanggal_penggunaan', 'no_surat', 'status', 'tanggal_pesan', 'tanggal_verifikasi'], 'safe'],
         ];
     }
 
+    /**
+     * @inheritdoc
+     */
     public function scenarios()
     {
+        // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
 
+    /**
+     * Creates data provider instance with search query applied
+     *
+     * @param array $params
+     *
+     * @return ActiveDataProvider
+     */
     public function search($params)
     {
         $query = Pesanan::find();
+
+        // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -33,7 +52,9 @@ class PesananSearch extends Pesanan
         $this->load($params);
 
         if (!$this->validate()) {
-                 return $dataProvider;
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
         }
 
         $query->joinWith('idRuang')

@@ -11342,3 +11342,1677 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1486294411.896
     'REQUEST_TIME' => 1486294411
 ]
+2017-02-05 12:41:17 [::1][1][bsklkqgq5b4bspvse5jlom7n68][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "user/monitoring". in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/monitoring', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 12:41:17 [::1][1][bsklkqgq5b4bspvse5jlom7n68][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'bsklkqgq5b4bspvse5jlom7n68'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+    '_identity' => '2b790ff9a44153457b52f7bf2ad8330cbc66b23dd2c1d133ca39f440bd126ebaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"yAG-kNi8pqkfL_2QSSmjC8XTua2rtFfG\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user/user'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/site/index'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=bsklkqgq5b4bspvse5jlom7n68; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D; _identity=2b790ff9a44153457b52f7bf2ad8330cbc66b23dd2c1d133ca39f440bd126ebaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22yAG-kNi8pqkfL_2QSSmjC8XTua2rtFfG%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '60522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/monitoring'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/monitoring'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\monitoring'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/monitoring'
+    'REQUEST_TIME_FLOAT' => 1486294877.487
+    'REQUEST_TIME' => 1486294877
+]
+2017-02-05 12:55:02 [::1][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'app\controllers\UserController' in file: D:\Db_Web\XAMPP\htdocs\peminjamanruang/controllers/UserController.php. Namespace missing? in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(633): class_exists('app\\controllers...')
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('user')
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-05 12:55:02 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '60805'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user'
+    'REQUEST_TIME_FLOAT' => 1486295702.545
+    'REQUEST_TIME' => 1486295702
+]
+2017-02-05 12:58:33 [::1][-][-][error][Error] Error: Class 'app\models\Ruang' not found in D:\Db_Web\XAMPP\htdocs\peminjamanruang\models\Pesanan_.php:46
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(443): app\models\Pesanan_->rules()
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(411): yii\base\Model->createValidators()
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(187): yii\base\Model->getValidators()
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(751): yii\base\Model->scenarios()
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php(11): yii\base\Model->safeAttributes()
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(yii\gii\generators\crud\Generator))
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(182): yii\gii\Generator->render('views/_form.php')
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(50): yii\gii\generators\crud\Generator->generate()
+#10 [internal function]: yii\gii\controllers\DefaultController->actionView('crud')
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii/default/vie...', Array)
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2017-02-05 12:58:33 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'WG5VQU8xM20WOmYmfkZiFWE0GDQaQUYHFRwEbAJdXRw/PBZ5PkEAKQ=='
+    'Generator' => [
+        'modelClass' => 'app\\models\\Pesanan_'
+        'searchModelClass' => 'app\\models\\PesananSearch'
+        'controllerClass' => 'app\\controllers\\PesananController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/gii/crud'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '499'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '60866'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/gii/crud'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/gii/crud'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\gii\\crud'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/gii/crud'
+    'REQUEST_TIME_FLOAT' => 1486295913.07
+    'REQUEST_TIME' => 1486295913
+]
+2017-02-05 12:59:03 [::1][-][-][error][Error] Error: Class 'app\models\Ruang' not found in D:\Db_Web\XAMPP\htdocs\peminjamanruang\models\Pesanan_.php:46
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(443): app\models\Pesanan_->rules()
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(411): yii\base\Model->createValidators()
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(187): yii\base\Model->getValidators()
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Model.php(751): yii\base\Model->scenarios()
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php(11): yii\base\Model->safeAttributes()
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(yii\gii\generators\crud\Generator))
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(182): yii\gii\Generator->render('views/_form.php')
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(50): yii\gii\generators\crud\Generator->generate()
+#10 [internal function]: yii\gii\controllers\DefaultController->actionView('crud')
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii/default/vie...', Array)
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2017-02-05 12:59:03 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'R0htR3pJbUYJHF4gSz48Pn4SIDIvORgsCjo8ajclAzcgGi5/CzleAg=='
+    'Generator' => [
+        'modelClass' => 'app\\models\\Pesanan_'
+        'searchModelClass' => 'app\\models\\PesananSearch'
+        'controllerClass' => 'app\\controllers\\PesananController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/gii/crud'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '499'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '60875'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/gii/crud'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/gii/crud'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\gii\\crud'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/gii/crud'
+    'REQUEST_TIME_FLOAT' => 1486295943.6
+    'REQUEST_TIME' => 1486295943
+]
+2017-02-05 13:10:23 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: dataProvider in D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\index.php:18
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\index.php(18): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\Db_Web\\XAMPP...', 18, Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\UserController))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(15): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\UserController->actionIndex()
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user', Array)
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-05 13:10:22 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user'
+    'REQUEST_TIME_FLOAT' => 1486296622.71
+    'REQUEST_TIME' => 1486296622
+]
+2017-02-05 13:17:01 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/pesan in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('pesan', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/pesan', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 13:17:01 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/pesan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/pesan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\pesan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/pesan'
+    'REQUEST_TIME_FLOAT' => 1486297021.619
+    'REQUEST_TIME' => 1486297021
+]
+2017-02-05 13:23:35 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/pesan in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('pesan', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/pesan', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 13:23:35 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/pesan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/pesan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\pesan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/pesan'
+    'REQUEST_TIME_FLOAT' => 1486297415.222
+    'REQUEST_TIME' => 1486297415
+]
+2017-02-05 13:23:39 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/pesan in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('pesan', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/pesan', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 13:23:39 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/pesan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/pesan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\pesan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/pesan'
+    'REQUEST_TIME_FLOAT' => 1486297419.316
+    'REQUEST_TIME' => 1486297419
+]
+2017-02-05 13:24:00 [::1][-][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\_form.php in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, NULL)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\tambah.php(14): yii\base\View->render('_form', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('tambah', Array, Object(app\controllers\UserController))
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(46): yii\base\Controller->render('tambah', Array)
+#7 [internal function]: app\controllers\UserController->actionTambahPesanan()
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('tambah-pesanan', Array)
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/tambah-pes...', Array)
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-02-05 13:24:00 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61336'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/tambah-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\tambah-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486297440.426
+    'REQUEST_TIME' => 1486297440
+]
+2017-02-05 13:32:28 [::1][-][-][error][Error] Error: Class 'ArrayHelper' not found in D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\_form.php:19
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require()
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, NULL)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\tambah.php(14): yii\base\View->render('_form', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('tambah', Array, Object(app\controllers\UserController))
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(46): yii\base\Controller->render('tambah', Array)
+#9 [internal function]: app\controllers\UserController->actionTambahPesanan()
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('tambah-pesanan', Array)
+#13 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/tambah-pes...', Array)
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#16 {main}
+2017-02-05 13:32:28 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61451'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/tambah-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\tambah-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486297948.069
+    'REQUEST_TIME' => 1486297948
+]
+2017-02-05 13:32:53 [::1][-][-][error][Error] Error: Class 'backend\models\Ruang' not found in D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\_form.php:20
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require()
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, NULL)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\tambah.php(14): yii\base\View->render('_form', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('tambah', Array, Object(app\controllers\UserController))
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(46): yii\base\Controller->render('tambah', Array)
+#9 [internal function]: app\controllers\UserController->actionTambahPesanan()
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('tambah-pesanan', Array)
+#13 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/tambah-pes...', Array)
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#16 {main}
+2017-02-05 13:32:53 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/tambah-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\tambah-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486297973.468
+    'REQUEST_TIME' => 1486297973
+]
+2017-02-05 13:33:05 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Ruang::sesi in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('sesi')
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('sesi')
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(502): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Ruang), 'sesi')
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\_form.php(27): yii\helpers\BaseArrayHelper::map(Array, 'sesi', 'jam')
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, NULL)
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\tambah.php(14): yii\base\View->render('_form', Array)
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('tambah', Array, Object(app\controllers\UserController))
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(46): yii\base\Controller->render('tambah', Array)
+#13 [internal function]: app\controllers\UserController->actionTambahPesanan()
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('tambah-pesanan', Array)
+#17 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/tambah-pes...', Array)
+#18 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#20 {main}
+2017-02-05 13:33:04 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61466'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/tambah-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\tambah-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486297984.965
+    'REQUEST_TIME' => 1486297984
+]
+2017-02-05 13:55:39 [::1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\controllers\UserController::findModel() in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(59): yii\base\Component->__call('findModel', Array)
+#1 [internal function]: app\controllers\UserController->actionLihatPesanan('5')
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-05 13:55:39 [::1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '61989'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan?id=5'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299339.607
+    'REQUEST_TIME' => 1486299339
+]
+2017-02-05 13:57:39 [::1][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\controllers\UserController::findModel() in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(59): yii\base\Component->__call('findModel', Array)
+#1 [internal function]: app\controllers\UserController->actionLihatPesanan('5')
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-05 13:57:39 [::1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62006'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan?id=5'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299459.443
+    'REQUEST_TIME' => 1486299459
+]
+2017-02-05 13:58:51 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-02-05 13:58:51 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62031'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299531.266
+    'REQUEST_TIME' => 1486299531
+]
+2017-02-05 13:59:23 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-02-05 13:59:23 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62047'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299563.662
+    'REQUEST_TIME' => 1486299563
+]
+2017-02-05 14:04:52 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-02-05 14:04:52 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62091'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299892.664
+    'REQUEST_TIME' => 1486299892
+]
+2017-02-05 14:04:57 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-02-05 14:04:57 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_GET = [
+    5 => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '5'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan?5'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299896.993
+    'REQUEST_TIME' => 1486299896
+]
+2017-02-05 14:04:58 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-02-05 14:04:58 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486299898.446
+    'REQUEST_TIME' => 1486299898
+]
+2017-02-05 14:05:55 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/update in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/update', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 14:05:55 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_GET = [
+    'id' => '7'
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/lihat-pesanan?id=7'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=7'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/update?id=7'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/update'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\update'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/update'
+    'REQUEST_TIME_FLOAT' => 1486299955.063
+    'REQUEST_TIME' => 1486299955
+]
+2017-02-05 14:08:24 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\widgets\DetailView::0 in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\BaseYii.php(525): yii\base\Component->__set('0', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\widgets\DetailView), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#5 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#6 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Widget.php(136): yii\BaseYii::createObject(Array)
+#7 D:\Db_Web\XAMPP\htdocs\peminjamanruang\views\user\lihat.php(15): yii\base\Widget::widget(Array)
+#8 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(328): require('D:\\Db_Web\\XAMPP...')
+#9 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\Db_Web\\XAMPP...', Array)
+#10 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\Db_Web\\XAMPP...', Array, Object(app\controllers\UserController))
+#11 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('lihat', Array, Object(app\controllers\UserController))
+#12 D:\Db_Web\XAMPP\htdocs\peminjamanruang\controllers\UserController.php(59): yii\base\Controller->render('lihat', Array)
+#13 [internal function]: app\controllers\UserController->actionLihatPesanan('7')
+#14 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#17 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#18 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#20 {main}
+2017-02-05 14:08:24 [::1][-][-][info][application] $_GET = [
+    'id' => '7'
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=7'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan?id=7'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486300104.1
+    'REQUEST_TIME' => 1486300104
+]
+2017-02-05 14:10:11 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: user/lihat-pesanan in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('lihat-pesanan', Array)
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/lihat-pesa...', Array)
+#2 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Db_Web\XAMPP\htdocs\peminjamanruang\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Db_Web\XAMPP\htdocs\peminjamanruang\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-05 14:10:11 [::1][-][ntkdcag2j9lndomhrjonfc7mfj][info][application] $_GET = [
+    'id' => '7'
+]
+
+$_COOKIE = [
+    '_csrf' => '343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D\";}'
+    'advanced-frontend' => 'qv188clj8lo750qhq1dji7ldcm'
+    '_csrf-frontend' => '2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE\";}'
+    'PHPSESSID' => 'ntkdcag2j9lndomhrjonfc7mfj'
+    'advanced-backend' => '8i9vk89prlrr2uefmrd2rd15fe'
+    '_csrf-backend' => 'fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/peminjamanruang/web/index.php/user'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/Db_Web/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Db_Web/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/peminjamanruang/web/index.php/user/tambah-pesanan'
+    'HTTP_COOKIE' => '_csrf=343ea6db9664e43ec9f0b91efef0332856da75496c2f7b6f88d71eb39c5f23b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NT3g1wQx9ZMuUpujMrQ-MlnqgRC8qp3D%22%3B%7D; advanced-frontend=qv188clj8lo750qhq1dji7ldcm; _csrf-frontend=2d7feedb303a96aca0ce203e028a120fd312534a68abf5ada2636a9b646e2284a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JBZEyoSUgo6FRLD-StvwOqcGeU6vN0kE%22%3B%7D; PHPSESSID=ntkdcag2j9lndomhrjonfc7mfj; advanced-backend=8i9vk89prlrr2uefmrd2rd15fe; _csrf-backend=fade1ce8802f6f2f31e8e4e690113e88db8ea511ec0f4d872bfa7b49480a0047a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225rhhC8x4Yenga1PpwLK4GUjG_KUe1jDC%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\adb\\adb_win_v1.0.26;C:\\adb\\adb_win_v1.0.26;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Db_Web\\Aktif\\php;C:\\Program Files\\Git\\cmd;D:\\Db_Web\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\sugen\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sugen\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Db_Web/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Db_Web/XAMPP/htdocs/peminjamanruang/web/index.php'
+    'REMOTE_PORT' => '62178'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=7'
+    'REQUEST_URI' => '/peminjamanruang/web/index.php/user/lihat-pesanan?id=7'
+    'SCRIPT_NAME' => '/peminjamanruang/web/index.php'
+    'PATH_INFO' => '/user/lihat-pesanan'
+    'PATH_TRANSLATED' => 'D:\\Db_Web\\XAMPP\\htdocs\\user\\lihat-pesanan'
+    'PHP_SELF' => '/peminjamanruang/web/index.php/user/lihat-pesanan'
+    'REQUEST_TIME_FLOAT' => 1486300211.691
+    'REQUEST_TIME' => 1486300211
+]
