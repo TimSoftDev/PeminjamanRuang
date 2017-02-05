@@ -80,7 +80,7 @@ Pastikan cookie validation key pada file `config/web.php` sudah terisi atau anda
 ```php
 'request' => [
     ...
-    'cookieValidationKey' => '<secret random string goes here>',
+    'cookieValidationKey' => '<kode acak yang anda inginkan>',
 ],
 ```
 
