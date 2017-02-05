@@ -202,21 +202,11 @@ class SiteController extends Controller
         return $this->render('monitoring');
     }
 
-    /**
-     * Displays pesan page.
-     *
-     * @return string
-     */
     public function actionPesan()
     {
         return $this->render('pesan');
     }
 
-    /**
-     * Displays pesan-ruang page.
-     *
-     * @return string
-     */
     public function actionPesanRuang()
     {
         return $this->render('pesan-ruang');
