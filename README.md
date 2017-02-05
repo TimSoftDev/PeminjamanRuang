@@ -1,12 +1,9 @@
-Yii 2 Basic Project Template
-============================
+Sistem Manajemen Ruang - v.1.0
+==============================
 
-Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-rapidly creating small projects.
+Sistem Manajemen Ruang merupakan sistem aplikasi berbasis website dan menggunakan Yii2-basic sebagai penunjangnya.  
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
+Anda dapat mengunduh dan menggunakan Yii2-basic melalui tombol di bawah.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-basic/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
