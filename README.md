@@ -95,4 +95,15 @@ http://localhost/peminjamanruang/web/
 ~~~
 
 
+
+### ROLES
+
+Untuk tingkat akses pada aplikasi ini dibagi menjadi 3, yaitu:
+
+- `admin   <mengakses tampilan admin>`   
+- `user    <mengakses tampilan user>`
+- `publik  <mengakses tampilan site>`
+
+
+
 **SELAMAT MENCOBA**
