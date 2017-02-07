@@ -21,28 +21,9 @@ $config = [
             ],
         ],
         'db' => $db,
-
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager', // or use 'yii\rbac\PhpManager'
-        ],
     ],
     'params' => $params,
-    /*
-    'modules' => [
-        'admin' => [
-            'class' => 'mdm\admin\Module',
-        ],
-    ],
-
-    'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
-        'allowActions' => [
-            'site/*',
-            'admin/*',
-            'user/*',
-            'some-controller/some-action',
-        ],
-    ],
+    
     /*
     'controllerMap' => [
         'fixture' => [ // Fixture generation command line.

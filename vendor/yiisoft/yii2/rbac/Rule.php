@@ -8,6 +8,7 @@
 namespace yii\rbac;
 
 use yii\base\Object;
+use yii\rbac\Rule;
 
 /**
  * Rule represents a business constraint that may be associated with a role, permission or assignment.
@@ -43,4 +44,23 @@ abstract class Rule extends Object
      * @return bool a value indicating whether the rule permits the auth item it is associated with.
      */
     abstract public function execute($user, $item, $params);
+}
+
+/**
+ * Checks if authorID matches user passed via params
+ */
+class SuperAdminRule extends Rule
+{
+    public $name = 'isSuperAdmin';
+
+    /**
+     * @param string|int $user the user ID.
+     * @param Item $item the role or permission that this rule is associated with
+     * @param array $params parameters passed to ManagerInterface::checkAccess().
+     * @return bool a value indicating whether the rule permits the role or permission it is associated with.
+     */
+    public function execute($user, $item, $params)
+    {
+        return isset($params['post']) ? $params['post']->createdBy == $user : false;
+    }
 }

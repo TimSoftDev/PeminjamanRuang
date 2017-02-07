@@ -7,10 +7,13 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-// use app\models\ContactForm;
 use app\models\PasswordResetRequestForm;
 use app\models\ResetPasswordForm;
 use app\models\SignupForm;
+
+use app\models\Pesanan;
+use app\models\PesananSearch;
+use yii\web\NotFoundHttpException;
 
 class SiteController extends Controller
 {
@@ -104,25 +107,6 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays contact page.
-     *
-     * @return string
-     
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-    */
-
-    /**
      * Signs user up.
      *
      * @return mixed
@@ -193,13 +177,19 @@ class SiteController extends Controller
     }
     
     /**
-     * Displays monitoring page.
+     * Displays time-table page.
      *
      * @return string
      */
-    public function actionMonitoring()
+    public function actionTimeTable()
     {
-        return $this->render('monitoring');
+        $searchModel = new PesananSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('time-table', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
     }
 
     public function actionPesan()

@@ -41,7 +41,7 @@ AppAsset::register($this);
     ];
     
     if (Yii::$app->user->isGuest) {
-        $menu[] = ['label' => 'Monitoring', 'url' => ['/site/monitoring']];
+        $menu[] = ['label' => 'Time Table', 'url' => ['/site/time-table']];
         $menu[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menu[] = ['label' => 'Monitoring', 'url' => ['/user']];
@@ -52,14 +52,13 @@ AppAsset::register($this);
         ];
     }
 
-    /* echo Nav::widget([
-        'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id)
-    ]); */
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => $menu,
+        'items' => // MenuHelper::getAssignedMenu(Yii::$app->user->id),
+            $menu,
 
     ]);
+   
     NavBar::end();
     ?>
 
