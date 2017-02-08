@@ -18,12 +18,6 @@ class UserController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['signup'],
-                        'allow' => true,
-                        'roles' => ['?'],
-                    ],
-                    [
-                        'actions' => ['logout', 'index', 'tambah-pesanan'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],

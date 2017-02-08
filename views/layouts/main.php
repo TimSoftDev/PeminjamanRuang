@@ -41,10 +41,11 @@ AppAsset::register($this);
     ];
     
     if (Yii::$app->user->isGuest) {
-        $menu[] = ['label' => 'Time Table', 'url' => ['/site/time-table']];
+        $menu[] = ['label' => 'Daftar Agenda', 'url' => ['/site/daftar-agenda']];
         $menu[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menu[] = ['label' => 'Monitoring', 'url' => ['/user']];
+        $menu[] = ['label' => 'Signup', 'url' => ['/site/signup']];
         $menu[] = [
             'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
             'url' => ['/site/logout'],

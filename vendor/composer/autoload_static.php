@@ -18,12 +18,18 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+            'yii2fullcalendar\\' => 17,
+        ),
+        'w' => 
+        array (
+            'wbraganca\\dynamicform\\' => 22,
         ),
         'p' => 
         array (
@@ -47,11 +53,15 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
             'kartik\\range\\' => 13,
             'kartik\\plugins\\fileinput\\' => 25,
             'kartik\\plugins\\depdrop\\' => 23,
+            'kartik\\plugins\\dateformatter\\' => 29,
             'kartik\\growl\\' => 13,
+            'kartik\\grid\\' => 12,
             'kartik\\form\\' => 12,
             'kartik\\file\\' => 12,
+            'kartik\\dialog\\' => 14,
             'kartik\\depdrop\\' => 15,
             'kartik\\datetime\\' => 16,
+            'kartik\\datecontrol\\' => 19,
             'kartik\\date\\' => 12,
             'kartik\\color\\' => 13,
             'kartik\\base\\' => 12,
@@ -108,6 +118,10 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -131,6 +145,14 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'yii2fullcalendar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/philippfrenzel/yii2fullcalendar',
+        ),
+        'wbraganca\\dynamicform\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wbraganca/yii2-dynamicform',
         ),
         'phpDocumentor\\Reflection\\' => 
         array (
@@ -190,9 +212,17 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         array (
             0 => __DIR__ . '/..' . '/kartik-v/dependent-dropdown',
         ),
+        'kartik\\plugins\\dateformatter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/php-date-formatter',
+        ),
         'kartik\\growl\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-growl',
+        ),
+        'kartik\\grid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-grid',
         ),
         'kartik\\form\\' => 
         array (
@@ -202,6 +232,10 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-fileinput',
         ),
+        'kartik\\dialog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-dialog',
+        ),
         'kartik\\depdrop\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-depdrop',
@@ -209,6 +243,10 @@ class ComposerStaticInit15711be6b8ec7a35074645612982ae3b
         'kartik\\datetime\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-datetimepicker',
+        ),
+        'kartik\\datecontrol\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-datecontrol',
         ),
         'kartik\\date\\' => 
         array (

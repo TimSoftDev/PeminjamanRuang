@@ -31,7 +31,7 @@ $config = [
         ],
         'user' => [
             'identityClass' => 'mdm\admin\models\User',
-            'loginUrl' => ['admin/user/login'],
+            'loginUrl' => ['site/login'],
 
             // 'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
@@ -63,7 +63,7 @@ $config = [
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
-            '*',
+            'site/*',
             // 'admin/*',
         ],
     ],    

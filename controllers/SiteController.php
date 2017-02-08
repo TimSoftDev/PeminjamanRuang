@@ -15,6 +15,10 @@ use app\models\Pesanan;
 use app\models\PesananSearch;
 use yii\web\NotFoundHttpException;
 
+use yii\helpers\Json;
+
+use \DateTime;
+
 class SiteController extends Controller
 {
     public function behaviors()
@@ -22,15 +26,15 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['signup', 'logout', 'pesan', 'pesan-ruang'],
+                'only' => ['signup', 'logout'],
                 'rules' => [
-                    [
+                    /*[
                         'actions' => ['signup'],
                         'allow' => true,
                         'roles' => ['?'],
-                    ],
+                    ],*/
                     [
-                        'actions' => ['logout', 'pesan', 'pesan-ruang'],
+                        'actions' => ['logout', 'signup'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -181,24 +185,37 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionTimeTable()
+    public function actionDaftarAgenda()
     {
-        $searchModel = new PesananSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
-        return $this->render('time-table', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
-        ]);
+       return $this->render('daftar-agenda');
+        
     }
 
-    public function actionPesan()
+    public function actionJsoncalendar($start=NULL,$end=NULL,$_=NULL)
     {
-        return $this->render('pesan');
+        $events = array();
+        
+        //Demo
+        $Event = new \yii2fullcalendar\models\Event();
+        $Event->id = 1;
+        $Event->title = 'LALALALA';
+        $Event->start = date('Y-m-d\TH:m:s\Z');
+        $events[] = $Event;
+        $Event = new \yii2fullcalendar\models\Event();
+        $Event->id = 2;
+        $Event->title = 'Testing';
+        $Event->start = date('Y-m-d\TH:m:s\Z',strtotime('tomorrow 8am'));
+        $events[] = $Event;
+        $event3 = new DateTime('+2days 10am');
+        $Event = new \yii2fullcalendar\models\Event();
+        $Event->id = 2;
+        $Event->title = 'Testing';
+        $Event->start = $event3->format('Y-m-d\Th:m:s\Z');
+        $Event->end = $event3->modify('+3 hours')->format('Y-m-d\TH:m:s\Z');
+        $events[] = $Event;
+        header('Content-type: application/json');
+        echo Json::encode($events);
+        Yii::$app->end();
     }
 
-    public function actionPesanRuang()
-    {
-        return $this->render('pesan-ruang');
-    }
 }
