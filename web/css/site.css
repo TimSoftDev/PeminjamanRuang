@@ -14,13 +14,6 @@ body {
     padding: 70px 15px 20px;
 }
 
-.footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
-}
-
 .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -96,15 +89,6 @@ a.desc:after {
     border: none;
 }
 
-@media(max-width:767px) {
-    .nav li > form > button.logout {
-        display:block;
-        text-align: left;
-        width: 100%;
-        padding: 10px 15px;
-    }
-}
-
 .nav > li > form > button.logout:focus,
 .nav > li > form > button.logout:hover {
     text-decoration: none;
@@ -113,3 +97,36 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+
+/*-------- Navbar --------*/
+.navbar-uns,
+.navbar-toggle .icon-bar {
+    background-color: #0084C4;
+    color: #fff;
+}
+
+.navbar-uns > li > a {
+    color: #fff;
+}
+
+.navbar-toggle,
+.navbar-uns > li > a:hover {
+    background-color: #fff;
+    color: #0084C4;
+}
+
+.navbar-brand,
+.navbar-header > a:hover {
+    color: #fff;
+}
+
+/*-------- Footer --------*/
+.footer {
+    height: 60px;
+    background-color: #0084C4;
+    color: #fff;
+    border-top: 5px solid #ddd;
+    padding-top: 20px;
+}
+

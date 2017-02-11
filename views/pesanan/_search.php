@@ -17,19 +17,19 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'nim_mahasiswa') ?>
+    <?= $form->field($model, 'nim') ?>
 
     <?= $form->field($model, 'id_ruang') ?>
 
-    <?= $form->field($model, 'tanggal_penggunaan') ?>
+    <?= $form->field($model, 'tanggal_mulai') ?>
 
-    <?= $form->field($model, 'sesi_waktu') ?>
+    <?= $form->field($model, 'tanggal_selesai') ?>
 
     <?php // echo $form->field($model, 'no_surat') ?>
 
     <?php // echo $form->field($model, 'status') ?>
 
-    <?php // echo $form->field($model, 'tanggal_pesan') ?>
+    <?php // echo $form->field($model, 'tanggal_input') ?>
 
     <?php // echo $form->field($model, 'tanggal_verifikasi') ?>
 

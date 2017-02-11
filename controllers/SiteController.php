@@ -58,12 +58,10 @@ class SiteController extends Controller
             'error' => [
                 'class' => 'yii\web\ErrorAction',
             ],
-            /*
             'captcha' => [
                 'class' => 'yii\captcha\CaptchaAction',
                 'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
             ],
-            */
         ];
     }
 
@@ -108,27 +106,6 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
-
-    /**
-     * Signs user up.
-     *
-     * @return mixed
-     */
-    public function actionSignup()
-    {
-        $model = new SignupForm();
-        if ($model->load(Yii::$app->request->post())) {
-            if ($user = $model->signup()) {
-                if (Yii::$app->getUser()->login($user)) {
-                    return $this->goHome();
-                }
-            }
-        }
-
-        return $this->render('signup', [
-            'model' => $model,
-        ]);
     }
 
     /**
@@ -180,42 +157,32 @@ class SiteController extends Controller
         ]);
     }
     
-    /**
-     * Displays time-table page.
-     *
-     * @return string
-     */
+
     public function actionDaftarAgenda()
     {
        return $this->render('daftar-agenda');
         
     }
 
-    public function actionJsoncalendar($start=NULL,$end=NULL,$_=NULL)
-    {
+    public function actionAgen($start=NULL,$end=NULL,$_=NULL){
+
+        \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+
+        $times = Pesanan::find()->all();
+
         $events = array();
-        
-        //Demo
-        $Event = new \yii2fullcalendar\models\Event();
-        $Event->id = 1;
-        $Event->title = 'LALALALA';
-        $Event->start = date('Y-m-d\TH:m:s\Z');
-        $events[] = $Event;
-        $Event = new \yii2fullcalendar\models\Event();
-        $Event->id = 2;
-        $Event->title = 'Testing';
-        $Event->start = date('Y-m-d\TH:m:s\Z',strtotime('tomorrow 8am'));
-        $events[] = $Event;
-        $event3 = new DateTime('+2days 10am');
-        $Event = new \yii2fullcalendar\models\Event();
-        $Event->id = 2;
-        $Event->title = 'Testing';
-        $Event->start = $event3->format('Y-m-d\Th:m:s\Z');
-        $Event->end = $event3->modify('+3 hours')->format('Y-m-d\TH:m:s\Z');
-        $events[] = $Event;
-        header('Content-type: application/json');
-        echo Json::encode($events);
-        Yii::$app->end();
-    }
+
+        foreach ($times AS $time){
+            //Testing
+            $Event = new \yii2fullcalendar\models\Event();
+            $Event->id = $time->id;
+            $Event->title = $time->id_ruang;
+            $Event->start = $time->tanggal_mulai;
+            $Event->end = $time->tanggal_selesai;
+            $events[] = $Event;
+        }
+
+        return $events;
+      }
 
 }

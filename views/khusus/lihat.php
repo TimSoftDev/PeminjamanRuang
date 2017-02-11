@@ -3,9 +3,6 @@
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
-/* @var $this yii\web\View */
-/* @var $model app\models\Pesanan */
-
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Pesanans', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -34,7 +31,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'tanggal_mulai',
             'tanggal_selesai',
             'no_surat',
-            'status',
             'tanggal_input',
             'tanggal_verifikasi',
         ],

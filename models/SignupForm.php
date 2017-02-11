@@ -13,6 +13,9 @@ class SignupForm extends Model
     public $email;
     public $password;
 
+    public $nama;
+    public $nim;
+
 
     /**
      * @inheritdoc
@@ -24,6 +27,13 @@ class SignupForm extends Model
             ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\app\models\User', 'message' => 'This username has already been taken.'],
             ['username', 'string', 'min' => 2, 'max' => 255],
+
+            ['nim', 'required'],
+            ['nim', 'string', 'max' => 8],
+            ['nim', 'unique', 'targetClass' => '\app\models\User', 'message' => 'This nim has already been taken.'],
+
+            ['nama', 'required'],
+            ['nama', 'string', 'max' => 64],
 
             ['email', 'trim'],
             ['email', 'required'],
@@ -48,6 +58,8 @@ class SignupForm extends Model
         }
         
         $user = new User();
+        $user->nim = $this->nim;
+        $user->nama = $this->nama;
         $user->username = $this->username;
         $user->email = $this->email;
         $user->setPassword($this->password);
@@ -55,4 +67,5 @@ class SignupForm extends Model
         
         return $user->save() ? $user : null;
     }
+
 }

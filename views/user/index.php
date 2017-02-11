@@ -24,12 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'id_ruang',
                 'value' => 'idRuang.nama',                
             ],
-            [
-                'attribute' => 'sesi_waktu',
-                'value' => 'sesiWaktu.jam',                
-            ],
-            'tanggal_penggunaan',
-            'status',
+            'tanggal_mulai',
         ],
     ]); ?>
 </div>

@@ -8,18 +8,16 @@ use Yii;
  * This is the model class for table "pesanan".
  *
  * @property integer $id
- * @property string $nim_mahasiswa
+ * @property string $nim
  * @property string $id_ruang
- * @property string $tanggal_penggunaan
- * @property integer $sesi_waktu
+ * @property string $tanggal_mulai
+ * @property string $tanggal_selesai
  * @property string $no_surat
- * @property string $status
- * @property string $tanggal_pesan
+ * @property string $tanggal_input
  * @property string $tanggal_verifikasi
  *
  * @property Ruang $idRuang
- * @property Waktu $sesiWaktu
- * @property Mahasiswa $nimMahasiswa
+ * @property User $nim0
  */
 class Pesanan extends \yii\db\ActiveRecord
 {
@@ -37,15 +35,12 @@ class Pesanan extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nim_mahasiswa', 'id_ruang', 'tanggal_penggunaan', 'sesi_waktu', 'no_surat', 'status', 'tanggal_pesan', 'tanggal_verifikasi'], 'required'],
-            [['tanggal_penggunaan', 'tanggal_pesan', 'tanggal_verifikasi'], 'safe'],
-            [['sesi_waktu'], 'integer'],
-            [['status'], 'string'],
-            [['nim_mahasiswa', 'id_ruang'], 'string', 'max' => 8],
+            [['nim', 'id_ruang', 'tanggal_mulai', 'tanggal_selesai', 'no_surat', 'tanggal_verifikasi'], 'required'],
+            [['tanggal_mulai', 'tanggal_selesai', 'tanggal_input', 'tanggal_verifikasi'], 'safe'],
+            [['nim', 'id_ruang'], 'string', 'max' => 8],
             [['no_surat'], 'string', 'max' => 15],
             [['id_ruang'], 'exist', 'skipOnError' => true, 'targetClass' => Ruang::className(), 'targetAttribute' => ['id_ruang' => 'id']],
-            [['sesi_waktu'], 'exist', 'skipOnError' => true, 'targetClass' => Waktu::className(), 'targetAttribute' => ['sesi_waktu' => 'sesi']],
-            [['nim_mahasiswa'], 'exist', 'skipOnError' => true, 'targetClass' => Mahasiswa::className(), 'targetAttribute' => ['nim_mahasiswa' => 'nim']],
+            [['nim'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['nim' => 'nim']],
         ];
     }
 
@@ -56,13 +51,12 @@ class Pesanan extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'nim_mahasiswa' => 'Nim Mahasiswa',
-            'id_ruang' => 'Nama Ruang',
-            'tanggal_penggunaan' => 'Tanggal Penggunaan',
-            'sesi_waktu' => 'Waktu Penggunaan',
+            'nim' => 'Nim',
+            'id_ruang' => 'Id Ruang',
+            'tanggal_mulai' => 'Tanggal Mulai',
+            'tanggal_selesai' => 'Tanggal Selesai',
             'no_surat' => 'No Surat',
-            'status' => 'Status',
-            'tanggal_pesan' => 'Tanggal Pesan',
+            'tanggal_input' => 'Tanggal Input',
             'tanggal_verifikasi' => 'Tanggal Verifikasi',
         ];
     }
@@ -78,16 +72,8 @@ class Pesanan extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getSesiWaktu()
+    public function getNim0()
     {
-        return $this->hasOne(Waktu::className(), ['sesi' => 'sesi_waktu']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getNimMahasiswa()
-    {
-        return $this->hasOne(Mahasiswa::className(), ['nim' => 'nim_mahasiswa']);
+        return $this->hasOne(User::className(), ['nim' => 'nim']);
     }
 }

@@ -52,7 +52,7 @@ class Ruang extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getPesanans()
+    public function getPesanan()
     {
         return $this->hasMany(Pesanan::className(), ['id_ruang' => 'id']);
     }

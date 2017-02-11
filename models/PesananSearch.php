@@ -18,8 +18,8 @@ class PesananSearch extends Pesanan
     public function rules()
     {
         return [
-            [['id', 'sesi_waktu'], 'integer'],
-            [['nim_mahasiswa', 'id_ruang', 'tanggal_penggunaan', 'no_surat', 'status', 'tanggal_pesan', 'tanggal_verifikasi'], 'safe'],
+            [['id'], 'integer'],
+            [['nim', 'id_ruang', 'tanggal_mulai', 'tanggal_selesai', 'no_surat', 'tanggal_input', 'tanggal_verifikasi'], 'safe'],
         ];
     }
 
@@ -57,21 +57,18 @@ class PesananSearch extends Pesanan
             return $dataProvider;
         }
 
-        $query->joinWith('idRuang')
-            ->joinWith('sesiWaktu');
-
+        // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'tanggal_penggunaan' => $this->tanggal_penggunaan,
-            'tanggal_pesan' => $this->tanggal_pesan,
+            'tanggal_mulai' => $this->tanggal_mulai,
+            'tanggal_selesai' => $this->tanggal_selesai,
+            'tanggal_input' => $this->tanggal_input,
             'tanggal_verifikasi' => $this->tanggal_verifikasi,
         ]);
 
-        $query->andFilterWhere(['like', 'nim_mahasiswa', $this->nim_mahasiswa])
-            ->andFilterWhere(['like', 'ruang.nama', $this->id_ruang])            
-            ->andFilterWhere(['like', 'waktu.jam', $this->sesi_waktu])
-            ->andFilterWhere(['like', 'no_surat', $this->no_surat])
-            ->andFilterWhere(['like', 'status', $this->status]);
+        $query->andFilterWhere(['like', 'nim', $this->nim])
+            ->andFilterWhere(['like', 'id_ruang', $this->id_ruang])
+            ->andFilterWhere(['like', 'no_surat', $this->no_surat]);
 
         return $dataProvider;
     }

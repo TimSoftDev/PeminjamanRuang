@@ -1,11 +1,8 @@
 <?php
 
-/* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
-/* @var $model app\models\LoginForm */
-
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\captcha\Captcha;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
@@ -27,6 +24,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
         <?= $form->field($model, 'password')->passwordInput() ?>
+
+        <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+            'template' => '<div class="row"><div class="col-lg-4">{image}</div><div class="col-lg-6 col-lg-offset-2">{input}</div></div>',
+        ]) ?>
 
         <?= $form->field($model, 'rememberMe')->checkbox([
             'template' => "<div class=\"col-lg-offset-1 col-lg-3\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
