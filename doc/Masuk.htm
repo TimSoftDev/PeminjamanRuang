@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html style="height: auto;" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="S01QRWl4QkkNNwkHUCcSAhgaFSQZExsdJXw0EwMfJR8fJTEEH0wTMA==">
+    <title>Masuk</title>
+    <link href="Masuk_files/bootstrap.css" rel="stylesheet">
+<link href="Masuk_files/font-awesome.css" rel="stylesheet">
+<link href="Masuk_files/AdminLTE.css" rel="stylesheet">
+<link href="Masuk_files/kastem.css" rel="stylesheet">
+<link href="Masuk_files/skin-yellow.css" rel="stylesheet"></head>
+<body class="login-page" style="height: auto;">
+
+	
+	
+<div class="login-box">
+    <div class="login-logo">
+        <a href="#"><img src="Masuk_files/logo-uns.png" alt="Masuk" title="Masuk"></a>
+    </div>
+
+    <div id="w0-success-0" class="alert-success alert fade in">
+<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+
+Check your email for further instructions.
+
+</div>
+    <div class="login-head">
+        <p>Masukkan username dan password anda</p>
+    </div>
+
+    <div class="login-box-body">
+
+        <form id="login-form" action="/sistem-pendaftaran/site/login" method="post" role="form">
+<input name="_csrf-frontend" value="S01QRWl4QkkNNwkHUCcSAhgaFSQZExsdJXw0EwMfJR8fJTEEH0wTMA==" type="hidden">
+        <div class="form-group has-feedback field-loginform-username required">
+
+<input id="loginform-username" class="form-control" name="LoginForm[username]" placeholder="Username" autofocus="" aria-required="true" type="text"><span class="glyphicon glyphicon-user form-control-feedback"></span>
+
+<p class="help-block help-block-error"></p>
+</div>
+        <div class="form-group has-feedback field-loginform-password required">
+
+<input id="loginform-password" class="form-control" name="LoginForm[password]" placeholder="Password" aria-required="true" type="password"><span class="glyphicon glyphicon-lock form-control-feedback"></span>
+
+<p class="help-block help-block-error"></p>
+</div>
+        <div class="row">
+            <div class="col-xs-8">
+                <div class="form-group field-loginform-rememberme">
+<div class="checkbox">
+<label for="loginform-rememberme">
+<input name="LoginForm[rememberMe]" value="0" type="hidden"><input id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked="checked" type="checkbox">
+Remember Me
+</label>
+<p class="help-block help-block-error"></p>
+
+</div>
+</div>            </div>
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-primary btn-block btn-flat" name="login-button">Masuk</button>            </div>
+        </div>
+
+
+        </form>
+        <div class="login-foot">
+            <a href="http://localhost/sistem-pendaftaran/site/lupa">Lupa Password? </a> |
+            <a href="http://localhost/sistem-pendaftaran/site/signup">Belum Punya Akun?</a> |
+            <a href="http://localhost/sistem-pendaftaran/site/help">Bantuan</a>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="Masuk_files/jquery.js"></script>
+<script src="Masuk_files/bootstrap.js"></script>
+<script src="Masuk_files/yii_002.js"></script>
+<script src="Masuk_files/yii.js"></script>
+<script src="Masuk_files/app.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#w0-success-0').alert();
+jQuery('#login-form').yiiActiveForm([], []);
+});</script>
+
+</body></html>

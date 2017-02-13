@@ -1,0 +1,45 @@
+.login-page {
+	background-image: url("../img/symphony.png");
+	background-repeat: repeat;
+}
+
+.login-head {
+	background-color: rgba(70,70,70,0.7);
+	webkit-box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	-moz-box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	color: #fff;
+	font-size: 14px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.login-head > p {	
+	margin-bottom: 0px;
+}
+
+.login-box-body {
+	webkit-box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	-moz-box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	box-shadow: 6px 6px 5px -5px rgba(34,35,46,0.44);
+	background: rgba(255,255,255,0.7);
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 0;
+	color: #666;
+}
+
+.login-foot {
+	border-top: 1px solid #D2D6DE;
+	margin-top: 15px;
+	text-align: center;
+	padding-top: 10px;
+	color: #D2D6DE;
+}
+
+.no-padding {
+	padding: 0;
+	margin-top: 15px;
+}

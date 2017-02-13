@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 08, 2017 at 10:13 AM
+-- Generation Time: Feb 13, 2017 at 03:47 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -129,6 +129,14 @@ INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `cr
 ('/gii/default/index', 2, NULL, NULL, NULL, 1486521230, 1486521230),
 ('/gii/default/preview', 2, NULL, NULL, NULL, 1486521230, 1486521230),
 ('/gii/default/view', 2, NULL, NULL, NULL, 1486521230, 1486521230),
+('/khusus/*', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/agen', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/captcha', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/daftar', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/error', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/index', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/lihat', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/khusus/tambah', 2, NULL, NULL, NULL, 1486818914, 1486818914),
 ('/nyoba/*', 2, NULL, NULL, NULL, 1486521231, 1486521231),
 ('/nyoba/about', 2, NULL, NULL, NULL, 1486521231, 1486521231),
 ('/nyoba/captcha', 2, NULL, NULL, NULL, 1486521231, 1486521231),
@@ -148,6 +156,9 @@ INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `cr
 ('/pesanan/update', 2, NULL, NULL, NULL, 1486521232, 1486521232),
 ('/pesanan/view', 2, NULL, NULL, NULL, 1486521231, 1486521231),
 ('/site/*', 2, NULL, NULL, NULL, 1486521232, 1486521232),
+('/site/agen', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/site/captcha', 2, NULL, NULL, NULL, 1486818914, 1486818914),
+('/site/daftar-agenda', 2, NULL, NULL, NULL, 1486818914, 1486818914),
 ('/site/error', 2, NULL, NULL, NULL, 1486521232, 1486521232),
 ('/site/index', 2, NULL, NULL, NULL, 1486521232, 1486521232),
 ('/site/login', 2, NULL, NULL, NULL, 1486521232, 1486521232),
@@ -159,8 +170,8 @@ INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `cr
 ('/user/*', 2, NULL, NULL, NULL, 1486521233, 1486521233),
 ('/user/index', 2, NULL, NULL, NULL, 1486521232, 1486521232),
 ('/user/tambah-pesanan', 2, NULL, NULL, NULL, 1486521232, 1486521232),
-('SuperAdmin', 1, 'Dapat mengakses semua halaman.', NULL, NULL, 1486521313, 1486521313),
-('User', 1, 'Hanya mengakses link user/*', NULL, NULL, 1486528820, 1486528820);
+('SuperAdmin', 1, 'Dapat mengakses semua halaman.', NULL, NULL, 1486521313, 1486707896),
+('User', 1, 'Hanya mengakses link user/*', NULL, NULL, 1486528820, 1486707910);
 
 -- --------------------------------------------------------
 
@@ -179,103 +190,6 @@ CREATE TABLE `auth_item_child` (
 
 INSERT INTO `auth_item_child` (`parent`, `child`) VALUES
 ('SuperAdmin', '/*'),
-('SuperAdmin', '/admin/*'),
-('SuperAdmin', '/admin/assignment/*'),
-('SuperAdmin', '/admin/assignment/assign'),
-('SuperAdmin', '/admin/assignment/index'),
-('SuperAdmin', '/admin/assignment/revoke'),
-('SuperAdmin', '/admin/assignment/view'),
-('SuperAdmin', '/admin/default/*'),
-('SuperAdmin', '/admin/default/index'),
-('SuperAdmin', '/admin/menu/*'),
-('SuperAdmin', '/admin/menu/create'),
-('SuperAdmin', '/admin/menu/delete'),
-('SuperAdmin', '/admin/menu/index'),
-('SuperAdmin', '/admin/menu/update'),
-('SuperAdmin', '/admin/menu/view'),
-('SuperAdmin', '/admin/permission/*'),
-('SuperAdmin', '/admin/permission/assign'),
-('SuperAdmin', '/admin/permission/create'),
-('SuperAdmin', '/admin/permission/delete'),
-('SuperAdmin', '/admin/permission/index'),
-('SuperAdmin', '/admin/permission/remove'),
-('SuperAdmin', '/admin/permission/update'),
-('SuperAdmin', '/admin/permission/view'),
-('SuperAdmin', '/admin/role/*'),
-('SuperAdmin', '/admin/role/assign'),
-('SuperAdmin', '/admin/role/create'),
-('SuperAdmin', '/admin/role/delete'),
-('SuperAdmin', '/admin/role/index'),
-('SuperAdmin', '/admin/role/remove'),
-('SuperAdmin', '/admin/role/update'),
-('SuperAdmin', '/admin/role/view'),
-('SuperAdmin', '/admin/route/*'),
-('SuperAdmin', '/admin/route/assign'),
-('SuperAdmin', '/admin/route/create'),
-('SuperAdmin', '/admin/route/index'),
-('SuperAdmin', '/admin/route/refresh'),
-('SuperAdmin', '/admin/route/remove'),
-('SuperAdmin', '/admin/rule/*'),
-('SuperAdmin', '/admin/rule/create'),
-('SuperAdmin', '/admin/rule/delete'),
-('SuperAdmin', '/admin/rule/index'),
-('SuperAdmin', '/admin/rule/update'),
-('SuperAdmin', '/admin/rule/view'),
-('SuperAdmin', '/admin/user/*'),
-('SuperAdmin', '/admin/user/activate'),
-('SuperAdmin', '/admin/user/change-password'),
-('SuperAdmin', '/admin/user/delete'),
-('SuperAdmin', '/admin/user/index'),
-('SuperAdmin', '/admin/user/login'),
-('SuperAdmin', '/admin/user/logout'),
-('SuperAdmin', '/admin/user/request-password-reset'),
-('SuperAdmin', '/admin/user/reset-password'),
-('SuperAdmin', '/admin/user/signup'),
-('SuperAdmin', '/admin/user/view'),
-('SuperAdmin', '/debug/*'),
-('SuperAdmin', '/debug/default/*'),
-('SuperAdmin', '/debug/default/db-explain'),
-('SuperAdmin', '/debug/default/download-mail'),
-('SuperAdmin', '/debug/default/index'),
-('SuperAdmin', '/debug/default/toolbar'),
-('SuperAdmin', '/debug/default/view'),
-('SuperAdmin', '/gii/*'),
-('SuperAdmin', '/gii/default/*'),
-('SuperAdmin', '/gii/default/action'),
-('SuperAdmin', '/gii/default/diff'),
-('SuperAdmin', '/gii/default/index'),
-('SuperAdmin', '/gii/default/preview'),
-('SuperAdmin', '/gii/default/view'),
-('SuperAdmin', '/nyoba/*'),
-('SuperAdmin', '/nyoba/about'),
-('SuperAdmin', '/nyoba/captcha'),
-('SuperAdmin', '/nyoba/contact'),
-('SuperAdmin', '/nyoba/error'),
-('SuperAdmin', '/nyoba/index'),
-('SuperAdmin', '/nyoba/jsoncalendar'),
-('SuperAdmin', '/nyoba/login'),
-('SuperAdmin', '/nyoba/logout'),
-('SuperAdmin', '/nyoba/masonry'),
-('SuperAdmin', '/nyoba/slidebars'),
-('SuperAdmin', '/nyoba/sly'),
-('SuperAdmin', '/pesanan/*'),
-('SuperAdmin', '/pesanan/create'),
-('SuperAdmin', '/pesanan/delete'),
-('SuperAdmin', '/pesanan/index'),
-('SuperAdmin', '/pesanan/update'),
-('SuperAdmin', '/pesanan/view'),
-('SuperAdmin', '/site/*'),
-('SuperAdmin', '/site/error'),
-('SuperAdmin', '/site/index'),
-('SuperAdmin', '/site/login'),
-('SuperAdmin', '/site/logout'),
-('SuperAdmin', '/site/request-password-reset'),
-('SuperAdmin', '/site/reset-password'),
-('SuperAdmin', '/site/signup'),
-('SuperAdmin', '/site/time-table'),
-('SuperAdmin', '/user/*'),
-('SuperAdmin', '/user/index'),
-('SuperAdmin', '/user/tambah-pesanan'),
 ('User', '/user/*');
 
 -- --------------------------------------------------------
@@ -294,54 +208,6 @@ CREATE TABLE `auth_rule` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `fakultas`
---
-
-CREATE TABLE `fakultas` (
-  `id` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `nama` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
-  `alamat` varchar(255) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `fakultas`
---
-
-INSERT INTO `fakultas` (`id`, `nama`, `alamat`) VALUES
-('UNS1', 'FKIP', 'KENTINGAN'),
-('UNS2', 'FISIP', 'KENTINGAN');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `mahasiswa`
---
-
-CREATE TABLE `mahasiswa` (
-  `nim` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `nama` varchar(64) COLLATE utf8_unicode_ci NOT NULL,
-  `id_fakultas` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `id_prodi` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `auth_key` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
-  `password_hash` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `password_reset_token` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `status` smallint(6) NOT NULL DEFAULT '10',
-  `created_at` int(11) NOT NULL,
-  `updated_at` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `mahasiswa`
---
-
-INSERT INTO `mahasiswa` (`nim`, `nama`, `id_fakultas`, `id_prodi`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
-('K1315050', 'SUGENG SULISTIYAWAN', 'UNS1', 'FKIP1', 'ssimg', '', '', NULL, '', 10, 0, 0);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `menu`
 --
 
@@ -353,6 +219,15 @@ CREATE TABLE `menu` (
   `order` int(11) DEFAULT NULL,
   `data` blob
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `menu`
+--
+
+INSERT INTO `menu` (`id`, `name`, `parent`, `route`, `order`, `data`) VALUES
+(1, 'Beranda', NULL, '/site/index', 1, NULL),
+(2, 'Login', NULL, '/site/login', 1, NULL),
+(3, 'Logout', NULL, '/site/logout', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -383,48 +258,14 @@ INSERT INTO `migration` (`version`, `apply_time`) VALUES
 
 CREATE TABLE `pesanan` (
   `id` int(11) NOT NULL,
-  `nim_mahasiswa` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
+  `nim` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
   `id_ruang` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `tanggal_penggunaan` date NOT NULL,
-  `sesi_waktu` int(3) NOT NULL,
+  `tanggal_mulai` datetime NOT NULL,
+  `tanggal_selesai` datetime NOT NULL,
   `no_surat` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
-  `status` enum('Aktif','Menunggu','Ditolak','Selesai') COLLATE utf8_unicode_ci NOT NULL,
-  `tanggal_pesan` datetime NOT NULL,
+  `tanggal_input` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `tanggal_verifikasi` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `pesanan`
---
-
-INSERT INTO `pesanan` (`id`, `nim_mahasiswa`, `id_ruang`, `tanggal_penggunaan`, `sesi_waktu`, `no_surat`, `status`, `tanggal_pesan`, `tanggal_verifikasi`) VALUES
-(1, 'K1315050', 'VICON1', '2017-02-06', 1, '100.22.11', 'Aktif', '2017-02-04 00:00:00', '2017-02-05 00:00:00'),
-(2, 'K1315050', 'VICON1', '0000-00-00', 2, '5665', 'Menunggu', '2017-02-05 11:02:07', '0000-00-00 00:00:00'),
-(3, 'K1315050', 'VICON2', '2016-05-05', 3, '1234434', 'Menunggu', '2017-02-05 11:02:52', '0000-00-00 00:00:00'),
-(4, 'K1315050', 'VICON2', '0000-00-00', 3, '5454', 'Menunggu', '2017-02-05 11:02:22', '0000-00-00 00:00:00'),
-(5, 'K1315050', 'VICON1', '0000-00-00', 1, '2121', 'Menunggu', '2017-02-05 01:02:39', '2017-02-05 01:02:39'),
-(6, 'K1315050', 'VICON1', '0000-00-00', 2, '111', 'Menunggu', '2017-02-05 02:02:26', '0000-00-00 00:00:00'),
-(7, 'K1315050', 'VICON1', '0000-00-00', 2, '233232', 'Menunggu', '2017-02-05 02:02:50', '0000-00-00 00:00:00'),
-(8, 'K1315050', 'VICON2', '0000-00-00', 4, '12', 'Menunggu', '2017-02-05 02:02:26', '0000-00-00 00:00:00');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `prodi`
---
-
-CREATE TABLE `prodi` (
-  `id` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `id_fakultas` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
-  `nama` varchar(32) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `prodi`
---
-
-INSERT INTO `prodi` (`id`, `id_fakultas`, `nama`) VALUES
-('FKIP1', 'UNS1', 'PENDIDIKAN MATEMATIKA');
 
 -- --------------------------------------------------------
 
@@ -454,6 +295,8 @@ INSERT INTO `ruang` (`id`, `nama`, `kapasitas`) VALUES
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
+  `nama` varchar(64) COLLATE utf8_unicode_ci NOT NULL,
+  `nim` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `auth_key` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `password_hash` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -468,31 +311,8 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'ssimg', 'yAG-kNi8pqkfL_2QSSmjC8XTua2rtFfG', '$2y$13$vksBAr5epijb2iIjYoH.xO8xFOUdzV1JIIyHQ4Fsr7JxD0s50TiBW', NULL, 'sugeng.sulistiyawan@gmail.com', 10, 1486286924, 1486286924),
-(2, 'admin', 'v9hqttoMW1_HMEuibrnQAbKL2c_yUTD0', '$2y$13$CnYB7eSZVtCZ3XFLFbWsKufoBHdjuszNzRNVXWAhcDjFg0nwC6INm', NULL, 'admin@127.0.0.1', 10, 1486489780, 1486489780),
-(3, 'user', 'eSYdV_W_EBIo2cjwxoWu2LRDg6YMwF5a', '$2y$13$DkQArwU.Mg7hq2/YF8fFFel96pmF26JKddzTvcn7nUlzqkl.skB6i', NULL, 'user@123.pass', 10, 1486521579, 1486521579);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `waktu`
---
-
-CREATE TABLE `waktu` (
-  `sesi` int(3) NOT NULL,
-  `jam` varchar(16) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `waktu`
---
-
-INSERT INTO `waktu` (`sesi`, `jam`) VALUES
-(1, '07.00 - 08.00'),
-(2, '08.00 - 09.00'),
-(3, '09.00 - 10.00'),
-(4, '10.00 - 11.00');
+INSERT INTO `user` (`id`, `nama`, `nim`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
+(1, '', '', 'ssimg', 'yAG-kNi8pqkfL_2QSSmjC8XTua2rtFfG', '$2y$13$vksBAr5epijb2iIjYoH.xO8xFOUdzV1JIIyHQ4Fsr7JxD0s50TiBW', NULL, 'sugeng.sulistiyawan@gmail.com', 10, 1486286924, 1486286924);
 
 --
 -- Indexes for dumped tables
@@ -526,25 +346,6 @@ ALTER TABLE `auth_rule`
   ADD PRIMARY KEY (`name`);
 
 --
--- Indexes for table `fakultas`
---
-ALTER TABLE `fakultas`
-  ADD UNIQUE KEY `id` (`id`);
-
---
--- Indexes for table `mahasiswa`
---
-ALTER TABLE `mahasiswa`
-  ADD PRIMARY KEY (`nim`),
-  ADD UNIQUE KEY `username` (`username`),
-  ADD UNIQUE KEY `email` (`email`),
-  ADD UNIQUE KEY `nim` (`nim`),
-  ADD UNIQUE KEY `password_reset_token` (`password_reset_token`),
-  ADD KEY `id_prodi` (`id_prodi`),
-  ADD KEY `id_fakultas` (`id_fakultas`),
-  ADD KEY `nim_2` (`nim`);
-
---
 -- Indexes for table `menu`
 --
 ALTER TABLE `menu`
@@ -562,22 +363,17 @@ ALTER TABLE `migration`
 --
 ALTER TABLE `pesanan`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `nim_mahasiswa` (`nim_mahasiswa`),
+  ADD KEY `nim_mahasiswa` (`nim`),
   ADD KEY `id_ruang` (`id_ruang`),
-  ADD KEY `sesi_waktu` (`sesi_waktu`);
-
---
--- Indexes for table `prodi`
---
-ALTER TABLE `prodi`
-  ADD UNIQUE KEY `id` (`id`),
-  ADD KEY `id_fakultas` (`id_fakultas`);
+  ADD KEY `id_ruang_2` (`id_ruang`),
+  ADD KEY `nim` (`nim`);
 
 --
 -- Indexes for table `ruang`
 --
 ALTER TABLE `ruang`
-  ADD UNIQUE KEY `id` (`id`);
+  ADD UNIQUE KEY `id` (`id`),
+  ADD KEY `id_2` (`id`);
 
 --
 -- Indexes for table `user`
@@ -587,13 +383,8 @@ ALTER TABLE `user`
   ADD UNIQUE KEY `username` (`username`),
   ADD UNIQUE KEY `email` (`email`),
   ADD UNIQUE KEY `password_reset_token` (`password_reset_token`),
-  ADD KEY `email_2` (`email`);
-
---
--- Indexes for table `waktu`
---
-ALTER TABLE `waktu`
-  ADD UNIQUE KEY `sesi` (`sesi`);
+  ADD KEY `email_2` (`email`),
+  ADD KEY `nim` (`nim`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -603,17 +394,17 @@ ALTER TABLE `waktu`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `pesanan`
 --
 ALTER TABLE `pesanan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- Constraints for dumped tables
 --
@@ -638,13 +429,6 @@ ALTER TABLE `auth_item_child`
   ADD CONSTRAINT `auth_item_child_ibfk_2` FOREIGN KEY (`child`) REFERENCES `auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Constraints for table `mahasiswa`
---
-ALTER TABLE `mahasiswa`
-  ADD CONSTRAINT `mahasiswa_ibfk_1` FOREIGN KEY (`id_fakultas`) REFERENCES `fakultas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `mahasiswa_ibfk_2` FOREIGN KEY (`id_prodi`) REFERENCES `prodi` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
 -- Constraints for table `menu`
 --
 ALTER TABLE `menu`
@@ -655,14 +439,7 @@ ALTER TABLE `menu`
 --
 ALTER TABLE `pesanan`
   ADD CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`id_ruang`) REFERENCES `ruang` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `pesanan_ibfk_2` FOREIGN KEY (`sesi_waktu`) REFERENCES `waktu` (`sesi`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `pesanan_ibfk_3` FOREIGN KEY (`nim_mahasiswa`) REFERENCES `mahasiswa` (`nim`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Constraints for table `prodi`
---
-ALTER TABLE `prodi`
-  ADD CONSTRAINT `prodi_ibfk_1` FOREIGN KEY (`id_fakultas`) REFERENCES `fakultas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `pesanan_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `user` (`nim`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
